@@ -1,0 +1,43 @@
+body {
+    background: transparent;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.tag {
+    display: inline-block;
+    padding: 4px 10px;
+    margin: 2px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+  }
+  
+  /* Cores por tipo */
+  .tipo-normal    { background-color: #A8A77A; }
+  .tipo-fire      { background-color: #EE8130; }
+  .tipo-water     { background-color: #6390F0; }
+  .tipo-electric  { background-color: #F7D02C; color: black; }
+  .tipo-grass     { background-color: #7AC74C; }
+  .tipo-ice       { background-color: #96D9D6; color: black; }
+  .tipo-fighting  { background-color: #C22E28; }
+  .tipo-poison    { background-color: #A33EA1; }
+  .tipo-ground    { background-color: #E2BF65; color: black; }
+  .tipo-flying    { background-color: #A98FF3; }
+  .tipo-psychic   { background-color: #F95587; }
+  .tipo-bug       { background-color: #A6B91A; }
+  .tipo-rock      { background-color: #B6A136; }
+  .tipo-ghost     { background-color: #735797; }
+  .tipo-dragon    { background-color: #6F35FC; }
+  .tipo-dark      { background-color: #705746; }
+  .tipo-steel     { background-color: #B7B7CE; color: black; }
+  .tipo-fairy     { background-color: #D685AD; }
